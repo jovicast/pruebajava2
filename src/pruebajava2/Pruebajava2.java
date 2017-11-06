@@ -5,6 +5,7 @@
  */
 package pruebajava2;
 import javax.swing.JOptionPane;
+import java.lang.Math;
 /************************************
  * Myriam Castillo Zavala;
  * @author LAB07
@@ -14,54 +15,65 @@ import javax.swing.JOptionPane;
  ************************************/
 public class Pruebajava2 
 {
-   
 
-    /**
+     /**
      * @param args the command line arguments
      */
+    
     public static void main(String[] args) 
     {
         // TODO code application logic here
-        float numero;
+        float mes = Float.parseFloat(JOptionPane.showInputDialog("Ingrese el mes"));
         
          //El metodo round es pas redondear un decimal
-    switch(Math.round(numero))
+    switch(Math.round(mes))
     {
-       case 1://Caso 1 - si el valor es 12
+       case 1:
         JOptionPane.showMessageDialog(null,"Enero");    
-        break;  
-        case 2://Caso 2 - si el valor es 12
+        break; 
+        
+        case 2:
         JOptionPane.showMessageDialog(null,"Febrero");    
-        break;  
-        case 3://Caso 3 - si el valor es 12
+        break; 
+        
+        case 3:
         JOptionPane.showMessageDialog(null,"Marzo");    
-        break;  
-        case 4://Caso 4 - si el valor es 12
+        break; 
+        
+        case 4:
         JOptionPane.showMessageDialog(null,"Abril");    
         break;  
-        case 5://Caso 1 - si el valor es 12
+        
+        case 5:
         JOptionPane.showMessageDialog(null,"Mayo");    
-        break;  
-        case 6://Caso 6 - si el valor es 12
+        break; 
+        
+        case 6:
         JOptionPane.showMessageDialog(null,"Junio");    
-        break;  
-        case 7://Caso 7 - si el valor es 12
+        break; 
+        
+        case 7:
         JOptionPane.showMessageDialog(null,"Julio");    
         break;  
-        case 8://Caso 8 - si el valor es 12
+        
+        case 8:
         JOptionPane.showMessageDialog(null,"Agosto");    
         break;  
-        case 9://Caso 9 - si el valor es 12
-        JOptionPane.showMessageDialog(null,"Enero");    
-        break;  
-        case 10://Caso 10- si el valor es 12
-        JOptionPane.showMessageDialog(null,"Febrero");    
-        break;  
-        case 11://Caso 11 - si el valor es 12
-        JOptionPane.showMessageDialog(null,"Enero");    
-        break;  
-        case 12://Caso 12 - si el valor es 12
-        JOptionPane.showMessageDialog(null,"Febrero");    
+        
+        case 9:
+        JOptionPane.showMessageDialog(null,"Septiembre");    
+        break; 
+        
+        case 10:
+        JOptionPane.showMessageDialog(null,"Octubre");    
+        break; 
+        
+        case 11:
+        JOptionPane.showMessageDialog(null,"Noviembre");    
+        break; 
+        
+        case 12:
+        JOptionPane.showMessageDialog(null,"Diciembre");    
         break;  
         
         
