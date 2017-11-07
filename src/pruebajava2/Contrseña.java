@@ -19,7 +19,9 @@ public class Contrseña
 {
  public static void main(String[] args) 
  {
+     float clave1,clave2,clave3;
     int numero;
+    numero =211;
    
      
      numero = Integer.parseInt(JOptionPane.showInputDialog("ingrese numero"));
@@ -30,16 +32,18 @@ public class Contrseña
      else
      {
       JOptionPane.showMessageDialog(null, "clave incorrecta");
-      numero =Integer.parseInt(JOptionPane.showInputDialog("ingrese segunda intento"));
+     numero =Integer.parseInt(JOptionPane.showInputDialog("ingrese segunda intento"));
       JOptionPane.showMessageDialog(null, "clave incorrecta");
       numero=Integer.parseInt(JOptionPane.showInputDialog("ingrese tersero intento"));
      } 
      while(numero==211)
      {
-       JOptionPane.showMessageDialog(null, "clave bloqueada, comunicarse al soporte tecnico");   
-    }
+       JOptionPane.showMessageDialog(null, "clave bloqueada, comunicarse al soporte tecnico"); 
+       {
+       else
+       }
  }
 }
-    
+}   
     
 
