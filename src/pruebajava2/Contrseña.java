@@ -19,29 +19,27 @@ public class Contrseña
 {
  public static void main(String[] args) 
  {
-     int contraseña;
- 
-  contraseña = Integer.parseInt(JOptionPane.showInputDialog("ingrese clave"));
-     int clave1;
-     int clave2;
-     int clave3;
-     int bloqueada;
+    int numero;
+   
      
-     if(clave1, clave2,clave3);//Aqui va una condicion
-    {
-        //Si la condicion se cumple se ejecuta este codigo
-     JOptionPane.showMessageDialog(null, "ingresar clave1");   
-    }
-     //Si la condicion se cumple se ejecuta este codigo
-     JOptionPane.showMessageDialog(null, "ingresa clave2");  
-     
-    {
-     JOptionPane.showMessageDialog(null, "ingresa clave3");  
-    }
-    {
-     JOptionPane.showMessageDialog(null, "ingresa clave3");  
+     numero = Integer.parseInt(JOptionPane.showInputDialog("ingrese numero"));
+     if (numero==211)
+     {
+     JOptionPane.showMessageDialog(null, "ingresar clave correcta");
+     }
+     else
+     {
+      JOptionPane.showMessageDialog(null, "clave incorrecta");
+      numero =Integer.parseInt(JOptionPane.showInputDialog("ingrese segunda intento"));
+      JOptionPane.showMessageDialog(null, "clave incorrecta");
+      numero=Integer.parseInt(JOptionPane.showInputDialog("ingrese tersero intento"));
+     } 
+     while(numero==211)
+     {
+       JOptionPane.showMessageDialog(null, "clave bloqueada, comunicarse al soporte tecnico");   
     }
  }
-    
-    
 }
+    
+    
+
